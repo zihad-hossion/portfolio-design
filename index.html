@@ -13,25 +13,64 @@
 
 <body>
     <!-- navbar -->
-    <header class="navbar" id="navbar">
-        <div class="nav-center">
-            <div class="nav-header">
-                <img src="./images/logo.svg" class="nav-logo" alt="logo image">
-                <button class="nav-btn" id="nav-btn"><i class="fas fa-bars"></i></button>
+    <header>
+        <nav class="navbar" id="navbar">
+            <div class="nav-center">
+                <div class="nav-header">
+                    <a href="index.html"> <img src="./images/logo.svg" class="nav-logo" alt="logo image"> </a>
+                    <button class="nav-btn" id="nav-btn"><i class="fas fa-bars"></i></button>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
-            <ul class="nav-links">
+        </nav>
+        <aside class="sidebar" id="sidebar">
+            <button class="close-btn" id="close-btn"><i class="fas fa-times"></i></button>
+            <ul class="sidebar-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </div>
+            <ul class="social-icons">
+                <li><a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://github.com/zihadhossion/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </li>
+            </ul>
+        </aside>
     </header>
-
-
     <!-- end navbar -->
+    <!-- hero -->
+    <section class="hero container">
+        <article class="hero-info">
+            <h1>I'm Jhon</h1>
+            <h4>Freelance Web & Mobile UI/UX Designer</h4>
+            <a href="contact.html" class="btn hero-btn">Hire Me</a>
+            <ul class="social-icons">
+                <li><a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://github.com/zihadhossion/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </li>
+            </ul>
+        </article>
+        <article class="hero-img">
+            <img src="./images/hero-img.jpeg" class="hero-image" alt="">
+        </article>
+    </section>
+    <!-- hero end -->
 
 
+
+
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
